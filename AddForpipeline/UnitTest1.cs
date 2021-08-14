@@ -12,7 +12,8 @@ namespace AddForpipeline
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            AddClass a = new AddClass();
+            Assert.AreEqual(a.Add(5, 10),15);
         }
     }
 }
